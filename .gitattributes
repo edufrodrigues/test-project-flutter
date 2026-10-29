@@ -1,0 +1,12 @@
+# Fins de linha em LF no repositório e na cópia de trabalho, para os diffs
+# entre cópias de teste não mostrarem arquivos inteiros alterados.
+* text=auto eol=lf
+
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+*.png binary
+*.jpg binary
+*.ttf binary
+*.otf binary
+*.jar binary
